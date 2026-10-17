@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "profiles": {
+    "demo_agent_c05e4ade": {
+      "name": "Анна",
+      "stack": "Python",
+      "level": null,
+      "goals": null,
+      "preferences": null,
+      "city": "Казань"
+    }
+  }
+}

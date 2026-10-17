@@ -1,0 +1,8 @@
+-r ../requirements.txt
+langchain-core==1.6.12
+pydantic==2.14.1
+ipywidgets==8.1.9
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel>=7,<8
+pytest>=8,<9

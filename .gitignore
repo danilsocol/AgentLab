@@ -1,7 +1,9 @@
 # Переменные окружения с секретами
 .env
-.env.local
-.env.*.local
+.env.*
+/agent_memory.json
+/memory.json
+/context/
 
 # Python
 __pycache__/
@@ -24,6 +26,10 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
 
 # Виртуальное окружение
 venv/
@@ -45,3 +51,4 @@ logs/
 
 # Модели (если не хотите коммитить большие файлы)
 models/*.gguf
+models/*.bin
